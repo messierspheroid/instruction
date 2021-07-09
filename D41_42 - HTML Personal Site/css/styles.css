@@ -1,0 +1,34 @@
+/*
+three different ways of selecting objects to apply CSS;
+tag, class (.class name) and id (#id name)
+
+psuedo classes are technically a different state;
+*/
+
+<style>
+
+    body {
+        background-color: #e7e6e1;
+    }
+
+    h1 {
+        color: #5b5b5b;
+    }
+
+    h3 {
+        color: #6e7c7c;
+    }
+
+    hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: olivedrab;
+        border-width: 5px;
+        width: 60%;
+    }
+
+    img:hover {
+        background-color: red;
+    }
+
+</style>

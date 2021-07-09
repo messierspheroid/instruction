@@ -1,0 +1,167 @@
+a {
+    color: #fde8cd;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+body {
+    color: #40514e;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.9rem;
+    color: #00917c;
+    margin: 3.125rem auto 0 auto;
+    font-family: 'Mali', cursive;
+}
+
+h2 {
+    color: #00917c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+
+}
+
+h3 {
+    color: #025955;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: dotted #025955 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 20%;
+}
+
+p {
+    line-height: 2;
+}
+
+.attribute {
+    font-size: 0.625rem;
+
+}
+
+.attribute-spacing {
+    margin: auto;
+}
+
+.biochemistry-img {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.bottom-cloud {
+    bottom: 19.75rem;
+    left: 10.0rem;
+    position: absolute;
+}
+
+.bottom-container {
+    background-color: #433520;
+    color: #fde8cd;
+    padding: 20px 0px 20px;
+}
+
+.btn {
+    background: #00917c;
+    background-image: -webkit-linear-gradient(top, #00917c, #025955);
+    background-image: -moz-linear-gradient(top, #00917c, #025955);
+    background-image: -ms-linear-gradient(top, #00917c, #025955);
+    background-image: -o-linear-gradient(top, #00917c, #025955);
+    background-image: linear-gradient(to bottom, #00917c, #025955);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #fde8cd;
+    background-image: -webkit-linear-gradient(top, #fde8cd, #433520);
+    background-image: -moz-linear-gradient(top, #fde8cd, #433520);
+    background-image: -ms-linear-gradient(top, #fde8cd, #433520);
+    background-image: -o-linear-gradient(top, #fde8cd, #433520);
+    background-image: linear-gradient(to bottom, #fde8cd, #433520);
+    text-decoration: none;
+}
+
+.contact-me {
+    margin: 100px 0;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.personal-dev-img {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.profile-bio {
+    margin: auto;
+    width: 65%;
+}
+
+.profile-img {
+    width: 25%;
+}
+
+.rs-href {
+    color: inherit;
+    margin: auto;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 60%;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 10.0rem;
+    top: 2.125rem;
+}
+
+.top-container {
+    background-color: #fde8cd;
+    position: relative;
+    padding-top: 2.00rem;
+}
+
+/* CSS display
+inline elements: <span>, <img>, <a>
+block elements: <p>, <h1> through <h6>, <div>, <ol,ul,li>, <form>
+display (CSS): block, inline, inline-block, none
+visibility (CSS): hidden
+
+position (CSS): static (default),
+    relative (compared to static),
+    absolute (compared to parent element),
+    fixed (on screen even scrolling)
+*/
+
+/* font-size is default 100% == 1em == 16px
+font-size is relative to parent element
+rem is more adaptable compared to em
+*/
+
